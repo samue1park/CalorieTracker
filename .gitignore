@@ -1,0 +1,34 @@
+# Xcode
+#
+# gitignore contributors: cyclicux, thany, bmacarthur
+
+## Build results
+build/
+DerivedData/
+
+## Xcode project-specific
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Personal/Custom Files
+Config.plist
+
+## Crashlytics
+crashlytics_build_sender_cookie
+
+## Package Manager / Dependency directories
+.swiftpm/xcode/package.pins
+.swiftpm/xcode/package.resolved
+.conan/
+
+## Others
+.DS_Store
+*.swp
+*~
