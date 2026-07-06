@@ -1,11 +1,11 @@
-# ATE 🍽️
+# ATE CalorieTracker
 ### Premium Nutrition, Calorie & Weight Tracker for iOS
 
 ATE is a beautiful, fluid, and privacy-first iOS calorie tracker and weight logging assistant. Built using modern SwiftUI design principles and SwiftData persistence, ATE combines premium dark-mode aesthetics (glassmorphism, vibrant gradients, custom typography) with a powerful offline search engine and smart API integrations.
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 * **Offline-First Food Library**: Query over 80,000 grocery items instantly via a pre-compiled, indexed SQLite database bundled directly within the app bundle. Treats hyphens as spaces and prioritizes prefix-based matches in a background thread for zero-latency searching.
 * **Camera Barcode Scanner**: Built-in AVCaptureSession scanner supporting real-time EAN-8, EAN-13, UPCE, and generic barcodes. Instantly queries the local offline database first, with a seamless online fallback to the Open Food Facts API v2.
@@ -16,7 +16,7 @@ ATE is a beautiful, fluid, and privacy-first iOS calorie tracker and weight logg
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 * **Framework**: SwiftUI (iOS 17.0+)
 * **Database / Persistence**: SwiftData (automatic schema lightweight migrations)
@@ -27,7 +27,7 @@ ATE is a beautiful, fluid, and privacy-first iOS calorie tracker and weight logg
 
 ---
 
-## 📂 Codebase Directory Structure
+## Codebase Directory Structure
 
 ```
 CalorieTracker/
@@ -52,7 +52,7 @@ CalorieTracker/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 * macOS with Xcode 15.0 or later.
